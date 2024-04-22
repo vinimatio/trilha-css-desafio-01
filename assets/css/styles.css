@@ -54,3 +54,110 @@ body {
     border-image-slice: 1;
 }
 
+#course-content {
+    padding: 100px;
+    text-align: center;
+    height: 533px;
+}
+
+#course-content h2 {
+    color: #33A8DB;
+    font-size: 32px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+#course-content p {
+    margin: auto;
+    width: 792px;
+    color: white;
+    font-size: 16px;
+    padding: 24px 0 24px 0;
+}
+
+#course-content .modules-list .module {
+    width: 535px;
+    height: 51px;
+    margin: auto;
+    padding-top: 15px;
+    margin-bottom: 24px;
+    color: white;
+    border: 1px solid #33A8DB;
+    background-color: #252525;
+    border-radius: 57px;
+    box-shadow: inset 0px 0px 20px black;
+}
+
+#course-content .modules-list .module span {
+    color: #33A8DB;
+}
+
+#transform-world {
+    background-image: url('/assets/images/woman-code.png');
+    background-attachment: fixed;
+    background-size: cover;
+    height: 363px;
+    border-top:  1px solid #33A8DB;
+    border-bottom:  1px solid #33A8DB;
+}
+
+#transform-world p {
+    text-transform: lowercase;
+    width: 244px;
+    height: 141px;
+    color: white;
+    font-size: 40px;
+    font-weight: 900;
+    margin-top: 90px;
+    margin-left: 198px;
+    text-shadow: #33A8DB 3px 2px;
+}
+
+#professional-challenges {
+    padding: 76px;
+    height: 820px;
+    text-align: center;
+}
+
+#professional-challenges h2 {
+    margin: auto;
+    text-transform: uppercase;
+    color: #33A8DB;
+    width: 746px;
+    height: 76px;
+    font-size: 32px;
+    font-weight: 600;
+    letter-spacing: 4px;
+}
+
+#professional-challenges p {
+    margin: auto;
+    width: 792px;
+    height: 76px;
+    font-size: 16px;   
+    color: white;
+    font-weight: 400;
+}
+
+#professional-challenges img {
+    padding: 35px;
+}
+
+footer {
+    padding: 30px;
+    border-top: 1px solid #33A8DB;
+    height: 150px;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+footer a {
+    color: #33A8DB;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
