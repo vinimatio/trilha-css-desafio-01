@@ -1,0 +1,56 @@
+@import url('reset.css');
+
+body {
+    background-color: black;
+}
+
+.banner {
+    height: 605px;
+    border-bottom: 1px solid #33A8DB;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.097), #3a578842, rgba(0, 0, 0, 0.219)), url('../images/banner.png');
+    text-align: center;
+    padding: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner-content {
+    height: 500px;
+    width: 510px;
+    margin: auto;
+}
+
+.banner-content h1 {
+    text-transform: uppercase;
+    color: transparent;
+    background: -webkit-linear-gradient(#33A8DB, #1472B7);
+    background-clip: text;
+    font-size: 40px;
+    margin: 16px;
+    font-weight: 900;
+    line-height: 46px;
+
+}
+
+.banner-content p {
+    color: white;
+    font-size: 19px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+
+.banner-content button {
+    color: #31A8DD;
+    text-transform: uppercase;
+    padding: 19px 46px;
+    font-size: 1rem;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 3px;
+    background-color: transparent;
+    border-image: linear-gradient(#3BA1CD, #1572B7);
+    border-image-slice: 1;
+}
+
