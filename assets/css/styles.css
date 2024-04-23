@@ -97,6 +97,7 @@ body {
     background-image: url('../images/woman-code.png');
     background-attachment: fixed;
     background-size: cover;
+    background-position: center;
     height: 363px;
     border-top:  1px solid #33A8DB;
     border-bottom:  1px solid #33A8DB;
